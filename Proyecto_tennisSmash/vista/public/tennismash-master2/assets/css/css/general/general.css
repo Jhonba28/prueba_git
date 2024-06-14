@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.gen{
+    height:62.5rem;
+    background-image: url("../../../img/tennis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.gen__dark{
+    background-color: rgba(00,00,00,0.5);;
+    height: 62.5rem;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+@media (min-width:0){
+    .gen__dark{   
+        height: 110rem; 
+    }
+    .gen{
+        height: 110rem;
+    }
+}
+@media (min-width:768px){
+    .gen__dark{   
+        height: 62.5rem; 
+    }
+    .gen{
+        height: 62.5rem;
+    }
+}

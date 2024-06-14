@@ -1,0 +1,89 @@
+.general-contacto__formularios{
+    margin-top: 1rem;
+    width: 53.125rem;
+    height: 28rem;
+    display: flex;
+    background-color:  rgba(137, 137, 137,0.5);
+    border-radius: 0.625rem;
+    flex-direction: column;
+}
+.contenedor__form--mod{
+    display: flex;
+    justify-content: space-around;
+}
+.formularios__titulo{
+    margin-top: 1.2rem;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.formularios__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formularios__inputs__contact--mod1{
+    margin-top: 1.8rem;
+    height: 2.2rem;
+}
+.formularios__inputs__contact{
+    width: 30rem;
+}
+.formularios__inputs__contact--mod2{
+    height: 2.2rem;
+    margin-top: 1rem;
+}
+.formularios__inputs__contact--mod3{
+    height: 9rem;
+    margin-top: 1rem;
+}
+.formularios__inputs__contact::placeholder{
+    font-size: 0.98rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formularios__inputs__boton{
+    width: 7rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.3125rem;
+    border:0.125rem solid white;
+}
+.formularios__inputs__boton:hover{
+    background-color: #15614a;
+    color: white;
+    transform: scale(1.1);
+    border: 0.125rem solid white;
+}
+.contactanos__img--mod{
+    width: 2rem;
+}
+@media (min-width:0){
+    .general-contacto__formularios{
+        width: 20rem;
+        height: 28rem;
+        
+    }
+    .formularios__inputs__contact{
+        width: 15rem;
+    }
+}
+@media (min-width:480px){
+    .general-contacto__formularios{
+        width: 28rem;
+        height: 28rem;
+        
+    }
+    .formularios__inputs__contact{
+        width: 23rem;
+    }
+}
+@media (min-width:768px){
+    .general-contacto__formularios{
+        width: 53.125rem;
+        height: 28rem;
+    }
+    .formularios__inputs__contact{
+        width: 30rem;
+    }
+}

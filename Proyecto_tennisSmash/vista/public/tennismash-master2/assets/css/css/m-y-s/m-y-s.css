@@ -1,0 +1,121 @@
+.gen__dark{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.line{
+    position: relative;
+    height: 800px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 10;
+}
+.gen__mision{
+    position: relative;
+    z-index: 1;
+    width: 31.25rem;
+    height: 43.75rem;
+    background-color:  rgba(137, 137, 137,0.5);
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.gen__vision{
+    position: relative;
+    z-index: 1;
+    width: 31.25rem;
+    height: 43.75rem;
+    background-color: rgba(137, 137, 137,0.5);
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.gen__mision__titulo{
+    margin-top: 20px;
+    font-size: 60px;
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 10;
+    font-family: 'Roboto', sans-serif;
+}
+.gen__mision__texto{
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.gen__vision__titulo{
+    margin-top: 20px;
+    font-size: 60px;
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 10;
+    font-family: 'Roboto', sans-serif;
+}
+.gen__vision__texto{
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width:0){
+    .gen__dark{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .line{
+        height: 0.3125rem;
+        width: 50rem;
+    }
+    .gen__mision{
+       
+        width: 20rem;
+        height: 72rem;
+    }
+    .gen__vision{
+        width: 20rem;
+        height: 78rem;
+    }
+}
+@media (min-width:480px){
+    .gen__dark{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .line{
+        height: 0.3125rem;
+        width: 50rem;
+    }
+    .gen__mision{
+       
+        width: 28rem;
+        height: 48rem;
+    }
+    .gen__vision{
+        width: 28rem;
+        height: 48rem;
+    }
+}
+@media (min-width:768px){
+    .gen__dark{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .line{
+        height: 50rem;
+        width: 0.3125rem;
+    }
+    .gen__mision{
+       
+        width: 31.25rem;
+        height: 43.75rem;
+    }
+    .gen__vision{
+        width: 31.25rem;
+        height: 43.75rem;
+    }
+}

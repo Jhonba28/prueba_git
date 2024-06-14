@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img_logo{
+    width: 85px;
+  }
+body {
+    /* background-color: black; */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative;
+    z-index: 2; */
+}
+:root{
+    --verde:#5cf2c8;
+    --fuente:"Roboto", sans-serif;
+    --blanco:#ffffff;
+    --navegacion:#5a6978;
+  }
+  
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  body {
+    font-family: var(--fuente);
+    background-color: #1f2426;
+    
+  }
+  .contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+   .separator__dark{
+    background-color: rgba(00,00,00, 0.6);
+    height:100%;
+   } 
+  
+  .nav-bg {
+    background-color: var(--navegacion);
+  }
+  .navegacion-principal a {
+    color: var(--blanco);
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 40px;
+  }
+
+  .navegacion-principal a:hover {
+    text-decoration: none;
+    color: var(--verde);
+  }
+  p {
+    color: white;
+  }
+  
+  
+  .navegacion-principal img {
+    width: 80px;
+    height: 80px;
+  }
+  @media (min-width: 480px) {
+    .navegacion-principal {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .navegacion-principal img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .navegacion-principal img{
+      margin-bottom: -35px;
+    }
+  
+    .navegacion-principal a:nth-child(4){
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: var(--navegacion);
+      margin-bottom: -40px;
+    }
+  
+ .navegacion-principal a{
+      padding: 5px;
+ }
+    
+  }
+
+  
+  .navegacion-principal a {
+    margin: auto 0px;
+    color: var(--blanco);
+    text-decoration: none;
+  
+  }
+.sep{
+    height: 80px;
+}
+.container {
+    max-width: 30rem;
+    background-color: rgba(125, 125, 125, 0.8);
+    padding: 20px 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    position:static;
+    z-index: 1;
+    height: 600px;
+    border-radius: 0.9rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+.titulo{
+    position: relative;
+    z-index: 2;
+}
+
+

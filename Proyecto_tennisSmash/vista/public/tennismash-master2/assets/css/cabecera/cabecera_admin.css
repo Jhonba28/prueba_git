@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root {
+    --verde: #5cf2c8;
+    --fuente: "Roboto", sans-serif;
+    --blanco: #ffffff;
+    --navegacion: #5a6978;
+    --botonTienda: #40916c;
+}
+.containerGeneral{
+    height: 60rem;
+    background-image: url("../../img/tennis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerGeneral__dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.heager_gen{
+    background-color:var(--navegacion) ;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.opciones{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo__header{
+    width: 5.3rem;
+    margin-left: 1rem;
+}
+.opciones__lista{
+    list-style: none;
+}
+.tabla__opciones{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.enlaces__lista{
+    text-decoration: none;
+    color: white;
+    font-family: var(--fuente);
+    font-size: 1.1rem;
+}
+.enlaces__lista:hover{
+    cursor: pointer;
+    color: var(--verde);
+}
+.enlaces__lista--mod{
+    margin-left: 1rem;
+    color: var(--verde);
+}
+.enlaces__lista--mod:hover{
+    cursor: pointer;
+    color: var(--blanco);
+}

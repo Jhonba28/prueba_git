@@ -1,0 +1,114 @@
+  
+  :root{
+    --verde:#5cf2c8;
+    --fuente:"Roboto", sans-serif;
+    --blanco:#ffffff;
+    --navegacion:#5a6978;
+  }
+  
+  footer .pie--texto:nth-child(3){
+    display: block;
+  
+  }
+  
+  .fondo{
+    background-color: #596978;
+    padding: 40px;
+    
+  }
+  
+  .pie:nth-child(3) label{
+    display: block;
+    color: var(--blanco);
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .pie:nth-child(3) input{
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pie:nth-child(1) a:hover, .pie:nth-child(2) a:hover{
+    color: var(--verde);
+  }
+  
+  .pie:nth-child(3) button{
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+  }
+  .pie:nth-child(1) .pie__enlace, .pie:nth-child(2) .pie__enlace {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .pie__enlace{
+    color: var(--blanco);
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  .contenedorRedes{
+    max-width: 180px;
+  }
+  .redes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pie__redes img{
+    filter: invert(96%) sepia(97%) saturate(12%) hue-rotate(237deg) brightness(103%) contrast(103%);
+  }
+  .pie__redes:hover{
+    cursor: pointer;
+    transform:scale(1.2)
+  }
+  footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+  }
+  
+  @media(max-width:480px) {
+    footer{
+      display: block;
+      text-align: center;
+    } 
+    .contenedorRedes{
+      margin: 0 auto;
+      
+    }
+    .pie:nth-child(3) input{
+      
+      margin-bottom: 10px;
+    }
+
+    
+    .pie:nth-child(1) .pie__enlace, .pie:nth-child(2) .pie__enlace{
+      width: 100%;
+    }
+  }
+
+.fondo--mod{
+    margin-top: 68rem;
+}
+@media (min-width:0){
+  .fondo--mod{
+    margin-top: 102rem;
+}
+}
+@media (min-width:768px){
+  .fondo--mod{
+    margin-top: 68rem;
+}
+}
+
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.general-contacto{
+    width: 100%;
+    height: 75rem;
+    background-image: url("../../../img/tennis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacto__dark{
+    width: 100%;
+    height: 75rem;
+    background-color: rgba(00, 00, 00, 0.6);
+
+}

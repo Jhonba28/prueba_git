@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis Smash | ventas</title>
+    <link rel="shortcut icon" href="../public/tennismash-master2/assets/img/iconos/LogoBlanco.ico">
+    <link rel="stylesheet" href="../public/tennismash-master2/assets/css/cabecera/cabecera_admin.css">
+    <link rel="stylesheet" href="../public/tennismash-master2/assets/css/css/general/forms.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="containerGeneral">
+        <section class="containerGeneral__dark">
+            <header class="heager_gen">
+                <nav class="logo">
+                    <img src="../public/tennismash-master2/assets/img/LogoBlanco2-origin.png" alt="" class="logo__header">
+                </nav>
+                <nav class="opciones">
+                    <ul class="tabla__opciones">
+                        <li class="opciones__lista"><a href="#" class="enlaces__lista">Usuario</a></li>
+                        <li class="opciones__lista"><a href="#" class="enlaces__lista">Tipo Usuario</a></li>
+                        <li class="opciones__lista"><a href="./productos.html" class="enlaces__lista">Productos</a></li>
+                        <li class="opciones__lista"><a href="./ventas.html" class="enlaces__lista">Venta</a></li>
+                        <li class="opciones__lista"><a href="../public/tennismash-master2/index.php" class="enlaces__lista enlaces__lista--mod">Cerrar sesion</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="form">
+                <form action="" class="consulta">
+                    <label for="" class="titulos_consulta">Codigo de venta</label><br>
+                    <input type="text" name="codventa" class="input__consulta">
+                    <br><br>
+                    <label for="" class="titulos_consulta">Fecha de venta</label><br>
+                    <input type="text" name="fechaventa" class="input__consulta">
+                    <br><br>
+                    <label for="" class="titulos_consulta">Cantidad vendida</label><br>
+                    <input type="text" name="cantidad" class="input__consulta">
+                    <br><br>
+                    <label for="" class="titulos_consulta">ID Usuario</label><br>
+                    <input type="text" name="fkidus" class="input__consulta">
+                    <br><br>
+                    <label for="" class="titulos_consulta">Codigo producto</label><br>
+                    <input type="text" name="fkprod" class="input__consulta">
+                    <br><br>
+                    <div class="contenedor_botones">
+                        <input type="button" value="Guardar" class="botones_consul" name="guardar"><input type="button" value="Limpiar" class="botones_consul" name="limpiar">
+                    </div>
+
+                </form>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
